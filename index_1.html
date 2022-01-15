@@ -9,7 +9,104 @@
 </head>
 <body>
     <h1 id="title">Build a Survey Form</h1>
-    <p id="description"> This is short explenation</p>
+    <p id="description"> This is short explanation you dog</p>
+    <form action="" id="survey-form">
+
+        <div class="formBox" >
+            <label for="name" id="name-label">enter name</label>
+            <input type="text" placeholder="Enter your naughty name" id="name" name="name" size="20" required >
+    
+        </div>
+        
+        <div class="formBox">
+
+            <label for="email" id="email-label">enter email, you silver wolf</label>
+            <input type="email" id="email" placeholder="Enter your pokec email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
+
+        </div>
+
+        <div class="formBox">
+
+            <label for="number" id="number-label"> How many moons earth have?</label>
+            <input type="number" id="number" placeholder="Its more than 0, less then 2"  pattern="[1]" min="1" max="1" size="30">
+
+        </div>
+        
+        <div class="formBox">
+
+            <label for="dropdown-label" id="dropdown-label"> Do you like a beer?</label>
+            <input type="l"  placeholder="Do you?" size="30" list="dropdown" >
+            <datalist id="dropdown">
+                <option value="No">
+                <option value="Nein">
+                <option value="Nie">
+                <option value="Jein">
+                <option value="nope">
+              </datalist>
+        </div>
+
+
+        <div class="formBox">
+            <label for="" id=""> Which one is not programming language?</label>
+
+                <div>
+                <input type="checkbox" id="HTML" name="drone" value="HTML"
+                        checked>
+                <label for="HTML">HTML</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="CSS" name="drone" value="CSS">
+                <label for="CSS">CSS</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="JS" name="drone" value="JS">
+                <label for="JS">JS</label>
+                </div>
+
+        </div>
+
+        <div class="formBox">
+            <label for="" id=""> Which one is programming language?</label>
+
+                <div>
+                <input type="radio" id="HTML" name="drone" value="HTML"
+                        checked>
+                <label for="HTML">HTML</label>
+                </div>
+
+                <div>
+                <input type="radio" id="CSS" name="drone" value="CSS">
+                <label for="CSS">CSS</label>
+                </div>
+
+                <div>
+                <input type="radio" id="JS" name="drone" value="JS">
+                <label for="JS">JS</label>
+                </div>
+
+        </div>
+
+
+        <div class="formBox">
+
+            <label for="nejakaTextArea">Tell us your story:</label>
+
+            <textarea id="nejakaTextArea" name="nejakaTextArea"
+                      rows="1" cols="5">
+            there we have some text bohajeho
+            </textarea>
+
+        </div>
+
+        
+
+           <button id="submit">
+            Hi, I am Submit button
+           </button>
+
+
     
 </body>
 </html>

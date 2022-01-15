@@ -1,2 +1,14 @@
-#title, #description{
+#title, #description {
 text-align: center;}
+
+#survey-form{
+    
+    row-gap: 1rem;
+    padding: 5rem;
+}
+
+.formBox{
+    display: grid;
+    padding: 1rem;
+}
+
