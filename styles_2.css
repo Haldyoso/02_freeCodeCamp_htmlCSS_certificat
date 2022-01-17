@@ -1,0 +1,13 @@
+
+
+#img-div{ 
+    display: grid;
+    justify-content: center;
+    align-content: center;}
+
+
+#image{
+    display: block;
+    max-width: 50vh;
+    max-height: 25hh;
+}
