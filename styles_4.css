@@ -1,0 +1,38 @@
+#header{
+   display:  flex;
+   justify-content: space-between;
+   border: orangered;
+   border-style: solid;
+   position: fixed; 
+   min-height: 100px;
+
+}
+
+.picDiv {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+#nav-bar{
+
+}
+
+ul{
+    list-style-type:none;
+    
+
+}
+
+li {
+    display: inline ;
+    padding: 1rem;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
